@@ -9,12 +9,7 @@ namespace Viikkotehtavat
     class Program
     {
         static void Main(string[] args)
-        {
-            Tehtava1();
-        }
-
-        static void Tehtava1()
-        {
+        {   
             //Tee ohjelma, joka tulostaa käyttäjän antamaa lukua (1, 2 tai 3) vastaavan luvun sanana (yksi, kaksi tai kolme). Jos käyttäjä syöttää jonkin muun luvun, tulee näytölle tulostaa teksti: "joku muu luku".
             Console.WriteLine("Anna 1,2 tai 3 ja tulostan sen tekstinä");
             string retval = Console.ReadLine();
