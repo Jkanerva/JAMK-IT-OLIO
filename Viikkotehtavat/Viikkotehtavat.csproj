@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Viikkotehtavat.Program8</StartupObject>
+    <StartupObject>Viikkotehtavat.Program15</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,8 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tehtava15.cs" />
     <Compile Include="Tehtava1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tehtava10.cs" />
+    <Compile Include="Tehtava11.cs" />
+    <Compile Include="Tehtava12.cs" />
+    <Compile Include="Tehtava13.cs" />
+    <Compile Include="Tehtava14.cs" />
     <Compile Include="Tehtava2.cs" />
     <Compile Include="Tehtava3.cs" />
     <Compile Include="Tehtava4.cs" />
@@ -56,6 +62,7 @@
     <Compile Include="Tehtava6.cs" />
     <Compile Include="Tehtava7.cs" />
     <Compile Include="Tehtava8.cs" />
+    <Compile Include="Tehtava9.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
