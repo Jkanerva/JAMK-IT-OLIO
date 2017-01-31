@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viikkotehtavat", "..\Viikko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demot", "Demot\Demot.csproj", "{35DC00C1-5FDA-4167-B19B-E1B1D8BE0003}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viikkotehtavat2", "..\Viikkotehtavat2\Viikkotehtavat2.csproj", "{09D87439-FD6D-475D-95C7-66309D47E5A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{35DC00C1-5FDA-4167-B19B-E1B1D8BE0003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35DC00C1-5FDA-4167-B19B-E1B1D8BE0003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35DC00C1-5FDA-4167-B19B-E1B1D8BE0003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D87439-FD6D-475D-95C7-66309D47E5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D87439-FD6D-475D-95C7-66309D47E5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D87439-FD6D-475D-95C7-66309D47E5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D87439-FD6D-475D-95C7-66309D47E5A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
