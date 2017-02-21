@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Olio_ohjelmointi2.Program6</StartupObject>
+    <StartupObject>Olio_ohjelmointi2.Program7</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ajoneuvo.cs" />
+    <Compile Include="CD.cs" />
     <Compile Include="Food.cs" />
     <Compile Include="Fridge.cs" />
     <Compile Include="Pomo.cs" />
@@ -57,9 +58,11 @@
     <Compile Include="Program4.cs" />
     <Compile Include="Program5.cs" />
     <Compile Include="Program6.cs" />
+    <Compile Include="Program7.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pyora.cs" />
     <Compile Include="Radio.cs" />
+    <Compile Include="Song.cs" />
     <Compile Include="Tyontekija.cs" />
     <Compile Include="Vahvistin.cs" />
     <Compile Include="Vene.cs" />
