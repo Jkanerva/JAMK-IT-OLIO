@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viikkotehtavat2", "..\Viikk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTV16S4", "..\TTV16S4\TTV16S4.csproj", "{CF612F6A-78A8-4815-9009-A12F760CFC98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "..\Demo\Demo.csproj", "{9BDD2D82-E394-4385-8EEA-273D24589C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtäviä", "..\Tehtäviä\Tehtäviä.csproj", "{75348DD9-8F69-4EBA-A58B-3DFF8EC76FD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{CF612F6A-78A8-4815-9009-A12F760CFC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF612F6A-78A8-4815-9009-A12F760CFC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF612F6A-78A8-4815-9009-A12F760CFC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDD2D82-E394-4385-8EEA-273D24589C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDD2D82-E394-4385-8EEA-273D24589C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDD2D82-E394-4385-8EEA-273D24589C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDD2D82-E394-4385-8EEA-273D24589C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75348DD9-8F69-4EBA-A58B-3DFF8EC76FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75348DD9-8F69-4EBA-A58B-3DFF8EC76FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75348DD9-8F69-4EBA-A58B-3DFF8EC76FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75348DD9-8F69-4EBA-A58B-3DFF8EC76FD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
