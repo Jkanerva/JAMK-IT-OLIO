@@ -25,7 +25,7 @@ namespace H3
             InitializeComponent();
         }
 
-        private void btn_Laske_Click(object sender, RoutedEventArgs e)
+        private void bt_Laske_Click(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -43,16 +43,14 @@ namespace H3
                 {
                     txt_karmiWidth.Text = "";
                 }
-
                 txt_ikkunanAla.Text = ((ikkunaW * ikkunaH) / 10).ToString() + "m^2";
                 txt_lasinAla.Text = (((ikkunaW - 2 * karmiLeveys) * (ikkunaH - 2 * karmiLeveys)) / 10).ToString() + "m^2";
 
                 txt_karminPiiri.Text = ((ikkunaW + ikkunaH) * 2 / 10).ToString() + "m^2";
-
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "ERROR PUGIPUGI");
+                MessageBox.Show(ex.Message, "ERROR");
                 throw ex;
             }
         }

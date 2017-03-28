@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="443.333" Width="808.685">
     <Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="253" Margin="10,10,0,0" VerticalAlignment="Top" Width="500" Source="ikkunakuva.PNG"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="253" Margin="10,10,0,0" VerticalAlignment="Top" Width="500" Source="ikkuna.PNG"/>
         <TextBox x:Name="txt_ikkunaWidth" HorizontalAlignment="Left" Height="23" Margin="648,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt_ikkunaHeight" HorizontalAlignment="Left" Height="23" Margin="648,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt_karmiWidth" HorizontalAlignment="Left" Height="23" Margin="648,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label" Content="Ikkunan leveys" HorizontalAlignment="Left" Margin="527,36,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Ikkunan korkeus" HorizontalAlignment="Left" Margin="527,84,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Karmipuun leveys" HorizontalAlignment="Left" Margin="527,136,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btn_Laske" Content="Laske" HorizontalAlignment="Left" Margin="598,185,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="24" Click="btn_Laske_Click"/>
+        <Button x:Name="bt_Laske" Content="Laske" HorizontalAlignment="Left" Margin="598,185,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="24" Click="btn_Laske_Click"/>
         <TextBox x:Name="txt_ikkunanAla" HorizontalAlignment="Left" Height="23" Margin="648,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt_lasinAla" HorizontalAlignment="Left" Height="23" Margin="648,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt_karminPiiri" HorizontalAlignment="Left" Height="23" Margin="648,352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
