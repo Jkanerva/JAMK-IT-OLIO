@@ -1,0 +1,28 @@
+﻿<Window x:Class="H4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:H4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightBlue">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110" />
+                <ColumnDefinition Width="110" />
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="txtLogin" Grid.Row="0" Grid.Column="1"/>
+            <TextBox x:Name="txtPass" Grid.Row="1" Grid.Column="1"/>
+            <Label x:Name="lblLogin" Content="Login: " Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="lblPass" Content="Password: " Grid.Row="1" Grid.Column="0"/>
+            <Button x:Name="btnLogin" Content="Login" Grid.Row="2" Width="50" Height="15" FontSize="8" HorizontalAlignment="right" Click="btnLogin_Click"/>
+        </Grid>
+    </Grid>
+</Window>
